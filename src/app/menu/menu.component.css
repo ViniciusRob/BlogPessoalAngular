@@ -1,0 +1,19 @@
+.fs-16{
+    font-size: 16pt;
+}
+
+a{
+    cursor: pointer;
+}
+
+.fs-12{
+    font-size: 12pt;
+}
+
+.fa-pencil:hover{
+    color: black;
+}
+
+.fa-sign-out:hover{
+    color: black;
+}
