@@ -17,3 +17,12 @@ a{
 .fa-sign-out:hover{
     color: black;
 }
+
+.bg{
+    background-color: #8558E6;
+}
+
+.imagem{
+    width: 50px;
+    height: 50px;
+}

@@ -1,0 +1,37 @@
+.bg{
+    background-color: #8558E6;
+}
+
+.fs-54{
+    font-size: 54pt;
+}
+
+.fs-18{
+    font-size: 18pt;
+}
+
+.imagem{
+    width: 450px;
+    height: 450px;
+}
+
+.font{
+    color: #6341B9;
+}
+
+.botaoModal{
+    background-color: #6341B9;
+    color: white;
+}
+
+.botaoModalFechar{
+    background-color: white;
+    color: #6341B9;
+    border-color:#6341B9;
+}
+
+.botaocor:hover{
+    background-color: #6341B9;
+    color: white;
+    border-color: #6341B9;
+}
