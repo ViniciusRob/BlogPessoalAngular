@@ -14,7 +14,7 @@
                 <p class="m-0 font-weight-bold text-white fs-16">Olá, {{nome}}!</p>
             </li>
             <li class="nav-item pl-3">
-                <a href="">
+                <a [routerLink]="['/user-edit', id]" >
                     <p class=" text-white fs-12 m-0"><i class="fa fa-pencil" aria-hidden="true"></i></p>
                 </a>
             </li>
@@ -26,8 +26,3 @@
         </ul>
     </div>
 </nav>
-
-
-<!---->
-
-<!---->

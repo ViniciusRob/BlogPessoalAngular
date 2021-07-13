@@ -25,6 +25,11 @@ export class TemaService {
     return this.http.get<Tema>(`https://bpdvrfds.herokuapp.com/temas/${id}`, this.token)
   }
 
+  //Pesquisar por Descrição
+  getByDescricaoTema(descricao: string): Observable<Tema[]>{
+    return this.http.get<Tema[]>(`https://bpdvrfds.herokuapp.com/temas/descricao/${descricao}`, this.token)
+  }
+
   //Inserir um novo tema
   postTema(tema: Tema): Observable<Tema>{
     return this.http.post<Tema>('https://bpdvrfds.herokuapp.com/temas', tema, this.token)
